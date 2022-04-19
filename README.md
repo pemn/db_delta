@@ -16,3 +16,5 @@ Common use cases are comparing blocks models or drillhole datasets.
  - condition: (optional) python syntax expression to restrict both datasets. Ex.: `length >= 4.0`. Usually left blank.
  - output_matrix: path to save the migration matrix in xlsx format.
  - output_records: path to save a raw table with all matched records. Usefull to debug. Usually left blank.
+## Repository
+https://github.com/pemn/db_delta
