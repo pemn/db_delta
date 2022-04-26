@@ -37,8 +37,11 @@ def pd_diff_bar_3d(df):
     yd = rd - df[ri]
     ax.bar(np.arange(len(rd)), yd, zs=z, zdir='y', color=cmap(z / len(df)))
     z += 1
-  ax.set_xticklabels(df.index)
-  ax.set_yticklabels(df.columns)
+
+  ax.set_xticks(np.arange(df.shape[0]))
+  ax.set_xticklabels(df.columns)
+  ax.set_yticks(np.arange(df.shape[1]))
+  ax.set_yticklabels(df.index)
   plt.show()
 
 def pd_diff_scatter_3d(xc, yc, zc, s1, s2):
