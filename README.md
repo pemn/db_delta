@@ -1,5 +1,8 @@
 # db_delta
 Compare the migration table of a value between two datasets.
+# db_buildup
+Generate a simpler table of the difference and a waterfall+candlestick chart.
+
 ## Purpose
 Common use cases are comparing blocks models or drillhole datasets.
 ## screenshots
