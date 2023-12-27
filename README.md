@@ -17,10 +17,10 @@ output_records|☑️| path to save a raw table with all matched records. Useful
 
 ## 📚 Examples
 ### Graphic User Interface  
-![screenshot1](assets/screenshot1.png?raw=true)  
+![screenshot1](https://github.com/pemn/assets/blob/main/db_delta1.png?raw=true)
   
 ### Result  
-![screenshot2](assets/screenshot2.png?raw=true)  
+![screenshot1](https://github.com/pemn/assets/blob/main/db_delta2.png?raw=true)
 
 ## 📓 Notes
 If both datasets do not have the same number of records, the key parameter will be required.  
