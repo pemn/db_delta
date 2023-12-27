@@ -1,8 +1,8 @@
 ## 📌 Description
 ### db_delta
 Compare the migration table of a value between two datasets.
-### db_buildup
-Generate a simpler table of the difference and a waterfall+candlestick chart.
+### db_waterfall_compare
+Generate a standard waterfall chart between two datasets.
 
 ## 📝 Parameters
 name|optional|description
@@ -16,11 +16,18 @@ output_matrix|☑️|path to save the migration matrix in xlsx format.
 output_records|☑️| path to save a raw table with all matched records. Usefull to debug. Usually left blank.
 
 ## 📚 Examples
-### Graphic User Interface  
+### delta form
 ![screenshot1](https://github.com/pemn/assets/blob/main/db_delta1.png?raw=true)
   
-### Result  
-![screenshot1](https://github.com/pemn/assets/blob/main/db_delta2.png?raw=true)
+### delta result
+![screenshot2](https://github.com/pemn/assets/blob/main/db_delta2.png?raw=true)
+
+### waterfall form  
+![screenshot3](https://github.com/pemn/assets/blob/main/db_waterfall_compare1.png?raw=true)
+  
+### waterfall result
+![screenshot4](https://github.com/pemn/assets/blob/main/db_waterfall_compare2.png?raw=true)
+
 
 ## 📓 Notes
 If both datasets do not have the same number of records, the key parameter will be required.  
